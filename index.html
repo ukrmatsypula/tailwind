@@ -8,10 +8,10 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="px-2 border-b">
+    <header class="flex items-center justify-between px-2 border-b">
       <a class="uppercase font-bold text-purple-800" href="#">webDew</a>
-      <nav>
-        <ul class="text-gray-500 font-semibold">
+      <nav class="flex items-center">
+        <ul class="inline-flex items-center text-gray-500 font-semibold">
           <li>
             <a
               class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-purple-800 hover:border-purple-800"
@@ -35,17 +35,17 @@
           </li>
         </ul>
 
-        <ul>
+        <ul class="inline-flex items-center">
           <li>
             <button
-              class="py-1 px-3 border-2 rounded-full border-indigo-600 text-indigo-500 hover:text-white hover:bg-indigo-800 focus:outline-none focus:ring focus:ring-violet-300"
+              class="ml-2 py-1 px-3 border-2 rounded-full border-indigo-600 text-indigo-500 hover:text-white hover:bg-indigo-800 focus:outline-none focus:ring focus:ring-violet-300"
             >
               Login
             </button>
           </li>
           <li>
             <button
-              class="py-1 px-3 border-2 rounded-full border-indigo-600 text-indigo-500 hover:text-white hover:bg-indigo-800 focus:outline-none focus:ring focus:ring-violet-300"
+              class="ml-2 py-1 px-3 border-2 rounded-full border-indigo-600 text-indigo-500 hover:text-white hover:bg-indigo-800 focus:outline-none focus:ring focus:ring-violet-300"
             >
               Register
             </button>
@@ -55,8 +55,8 @@
     </header>
 
     <main>
-      <div>
-        <div class="py-4 overflow-y-auto whitespace-nowrap">
+      <div class="flex items-center">
+        <div class="flex items-center py-4 overflow-y-auto whitespace-nowrap">
           <a class="text-gray-600 hover:text-gray-900" href="#">Home</a>
           <span class="mx-2 text-gray-500">&gt;</span>
           <a class="text-gray-600 hover:text-gray-900" href="#">News</a>
@@ -64,6 +64,56 @@
           <a class="text-gray-600 hover:text-gray-900" href="#">Tech</a>
         </div>
       </div>
+
+      <section class="px-2">
+        <a class="block mb-10" href="#">
+          <div class="flex">
+            <div>
+              <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </h3>
+              <p class="text-gray-700">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quidem mollitia enim tempora incidunt corrupti,
+                accusamus eaque iusto perspiciatis nisi?
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a class="block mb-10" href="#">
+          <div class="flex">
+            <div>
+              <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">
+                Lorem ipsum, dolor sit amet consectetur.
+              </h3>
+              <p class="text-gray-700">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Tenetur porro placeat labore voluptates? In, minus. Aperiam
+                facilis laudantium ex similique repellat illum assumenda commodi
+                ratione?
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a class="block mb-10" href="#">
+          <div class="flex">
+            <div>
+              <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Impedit quaerat porro id dolorum quia nam!
+              </h3>
+              <p class="text-gray-700">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Suscipit maxime in fugit modi, assumenda, ex non, illum eaque
+                nihil tenetur adipisci error perspiciatis aliquam veritatis
+                placeat nam neque aut incidunt at quo sint.
+              </p>
+            </div>
+          </div>
+        </a>
+      </section>
 
       <div class="mt-20 mb-10">
         <ul class="flex justify-center">
